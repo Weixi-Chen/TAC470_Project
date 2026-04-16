@@ -170,4 +170,4 @@ Returns service status and active embedding backend/dimension.
 
 ## License
 
-For academic/project use unless your course or team policy specifies otherwise.
+For academic/project use.
