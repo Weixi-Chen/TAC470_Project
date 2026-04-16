@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+  body {
+    @apply m-0 min-h-screen;
+  }
+}
+
+@layer utilities {
+  .skeleton-bar {
+    @apply rounded-md bg-gradient-to-r from-zinc-200 via-zinc-100 to-zinc-200 dark:from-slate-700 dark:via-slate-600 dark:to-slate-700;
+    background-size: 200% 100%;
+  }
+}
